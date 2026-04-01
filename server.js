@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL || "";
+const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL || "https://discord.com/api/webhooks/1488958714336772370/Eveuub8VnfnaYU_f0GwHFehSm_dcCYw0nYRdxcp68kIR5nIZ0R5k21SzfdN0VxU5MnQk";
 
 if (!DISCORD_WEBHOOK_URL) {
   console.warn("Missing DISCORD_WEBHOOK_URL in environment variables.");
